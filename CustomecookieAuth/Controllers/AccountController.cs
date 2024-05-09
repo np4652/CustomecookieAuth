@@ -38,7 +38,7 @@ namespace CustomecookieAuth.Controllers
             var claims = new List<Claim>{
                 new Claim(ClaimTypes.NameIdentifier, "1"),
                 new Claim(ClaimTypes.Name, "Amit"),
-                new Claim(ClaimTypes.Email, "amitsingh.roundpay@gmail.com")
+                new Claim(ClaimTypes.Role, "User")
             };
 
             var claimsIdentity = new ClaimsIdentity(claims, Constants.AuthenticationScheme);
