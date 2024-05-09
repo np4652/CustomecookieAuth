@@ -3,7 +3,11 @@
 This project demonstrates a custom approach to cookie-based authorization in .NET Core, offering an alternative to the built-in Identity system. By leveraging .NET Core's middleware architecture, this solution provides a lightweight and flexible way to manage user authentication and authorization using cookies.
 
 # Key Features:
-Sample Application: Includes a sample application demonstrating how to integrate custom cookie-based authorization into a .NET Core web application.
+    1. Authorization Policy: Define custom authorization policies to control access to resources within the application.
+
+    2. User Management: Manage user sessions, authentication, and authorization without relying on the ASP.NET Core Identity framework.
+    
+    3. <b>Sample Application:<b/> Includes a sample application demonstrating how to integrate custom cookie-based authorization into a .NET Core web application.
 
 # Usage:
 

@@ -20,6 +20,7 @@ namespace CustomecookieAuth.Controllers
             return View();
         }
 
+        [Authorize(AuthenticationSchemes = Constants.AuthenticationScheme,Roles = "User")]
         public IActionResult Privacy()
         {
             return View();
